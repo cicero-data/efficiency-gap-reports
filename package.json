@@ -1,0 +1,26 @@
+{
+  "name": "efficiency-gap-reports",
+  "version": "0.1.0",
+  "description": "Calculate and display partisan bias in a delegation's districts with efficiency gap scores.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reports": "node index.js"
+  },
+  "keywords": [
+    "elections",
+    "gerrymandering",
+    "geojson"
+  ],
+  "author": "Azavea",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "canvas": "^1.6.5",
+    "csv": "^1.1.1",
+    "d3-color": "^1.0.3",
+    "d3-geo": "^1.6.3",
+    "d3-geo-projection": "^2.1.0",
+    "d3-scale": "^1.0.5",
+    "fs": "0.0.1-security",
+    "yamljs": "^0.2.9"
+  }
+}

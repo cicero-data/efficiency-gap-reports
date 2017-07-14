@@ -1,0 +1,32 @@
+# CSV file with election results
+filename: 'results.csv'
+
+
+# Identifier field with name of each delegation (should be the same in both CSV results and GeoJSON boundaries file)
+delegationIdentifier: 'state'
+
+# Column name from CSV file with the formatted name of each delegation
+delegationName: 'state_name'
+
+
+# Identifier field for each district (should be the same in both CSV results and GeoJSON boundaries file)
+districtIdentifier: 'district'
+
+# Column name from CSV file for the first of two parties to compare
+partyLeftVotes: 'democratic'
+
+# Column name from CSV file for the second of two parties to compare
+partyRightVotes: 'republican'
+
+# Name of first party (left)
+partyLeftName: 'Democratic'
+
+# Name of second party (right)
+partyRightName: 'Republican'
+
+
+# GeoJSON file with district boundaries
+geojson: 'districts.geojson'
+
+# Output directory for saving infographics
+outputDirectory: 'figures'

@@ -1,0 +1,436 @@
+state,state_name,district,democratic,republican
+AL,Alabama,District 1,0,208083
+AL,Alabama,District 2,112089,134886
+AL,Alabama,District 3,94549,192164
+AL,Alabama,District 4,0,235925
+AL,Alabama,District 5,102234,205647
+AL,Alabama,District 6,83709,245313
+AL,Alabama,District 7,229330,0
+AK,Alaska,At Large,111019,155088
+AZ,Arizona,District 1,142219,121745
+AZ,Arizona,District 2,135873,179806
+AZ,Arizona,District 3,148973,0
+AZ,Arizona,District 4,81296,203487
+AZ,Arizona,District 5,114940,205184
+AZ,Arizona,District 6,122866,201578
+AZ,Arizona,District 7,119465,39286
+AZ,Arizona,District 8,0,204942
+AZ,Arizona,District 9,169055,108350
+AR,Arkansas,District 1,0,183866
+AR,Arkansas,District 2,111347,176472
+AR,Arkansas,District 3,0,217192
+AR,Arkansas,District 4,0,182885
+CA,California,District 1,128588,185448
+CA,California,District 2,254194,76572
+CA,California,District 3,152513,104453
+CA,California,District 4,130845,220133
+CA,California,District 5,224526,67565
+CA,California,District 6,177565,57848
+CA,California,District 7,152133,145168
+CA,California,District 8,83035,136972
+CA,California,District 9,133163,98992
+CA,California,District 10,116470,124671
+CA,California,District 11,214868,83341
+CA,California,District 12,274035,0
+CA,California,District 13,293117,29754
+CA,California,District 14,231630,54817
+CA,California,District 15,198578,70619
+CA,California,District 16,97473,70483
+CA,California,District 17,142268,0
+CA,California,District 18,230460,93470
+CA,California,District 19,181802,64061
+CA,California,District 20,180980,74811
+CA,California,District 21,57282,75126
+CA,California,District 22,76211,158755
+CA,California,District 23,74468,167116
+CA,California,District 24,166034,144780
+CA,California,District 25,122406,138755
+CA,California,District 26,169248,111059
+CA,California,District 27,168977,81655
+CA,California,District 28,210883,59526
+CA,California,District 29,128407,0
+CA,California,District 30,205279,77325
+CA,California,District 31,121070,94866
+CA,California,District 32,114926,0
+CA,California,District 33,219397,110822
+CA,California,District 34,122842,0
+CA,California,District 35,124044,47309
+CA,California,District 36,144348,88269
+CA,California,District 37,192490,0
+CA,California,District 38,163590,68524
+CA,California,District 39,112679,150777
+CA,California,District 40,106554,0
+CA,California,District 41,128164,69159
+CA,California,District 42,104689,149547
+CA,California,District 43,167017,52499
+CA,California,District 44,93124,0
+CA,California,District 45,129231,182618
+CA,California,District 46,115248,0
+CA,California,District 47,154759,88109
+CA,California,District 48,127715,178701
+CA,California,District 49,154267,155888
+CA,California,District 50,103646,179937
+CA,California,District 51,145162,54362
+CA,California,District 52,181253,139403
+CA,California,District 53,198988,97968
+CO,Colorado,District 1,257254,105030
+CO,Colorado,District 2,260175,170001
+CO,Colorado,District 3,150914,204220
+CO,Colorado,District 4,123642,248230
+CO,Colorado,District 5,111676,225445
+CO,Colorado,District 6,160372,191626
+CO,Colorado,District 7,199758,144066
+CT,Connecticut,District 1,200686,105674
+CT,Connecticut,District 2,208818,111149
+CT,Connecticut,District 3,213572,95786
+CT,Connecticut,District 4,187811,125724
+CT,Connecticut,District 5,179252,129801
+DE,Delaware,At Large,233554,172301
+FL,Florida,District 1,114079,255107
+FL,Florida,District 2,102801,231163
+FL,Florida,District 3,136338,193843
+FL,Florida,District 4,113088,287509
+FL,Florida,District 5,194549,108325
+FL,Florida,District 6,151051,213519
+FL,Florida,District 7,182039,171583
+FL,Florida,District 8,127127,246483
+FL,Florida,District 9,195311,144450
+FL,Florida,District 10,198491,107498
+FL,Florida,District 11,124713,258016
+FL,Florida,District 12,116110,253559
+FL,Florida,District 13,184693,171149
+FL,Florida,District 14,195789,121088
+FL,Florida,District 15,135475,182999
+FL,Florida,District 16,155262,230654
+FL,Florida,District 17,115974,209348
+FL,Florida,District 18,161918,201488
+FL,Florida,District 19,123812,239225
+FL,Florida,District 20,222914,54646
+FL,Florida,District 21,210606,118038
+FL,Florida,District 22,199113,138737
+FL,Florida,District 23,183225,130818
+FL,Florida,District 24,0,0
+FL,Florida,District 25,95319,157921
+FL,Florida,District 26,115493,148547
+FL,Florida,District 27,129760,157917
+GA,Georgia,District 1,0,210243
+GA,Georgia,District 2,148543,94056
+GA,Georgia,District 3,95969,207218
+GA,Georgia,District 4,220146,70593
+GA,Georgia,District 5,253781,46768
+GA,Georgia,District 6,124917,201088
+GA,Georgia,District 7,114220,174081
+GA,Georgia,District 8,83225,173983
+GA,Georgia,District 9,0,256535
+GA,Georgia,District 10,0,243725
+GA,Georgia,District 11,105383,217935
+GA,Georgia,District 12,99420,159492
+GA,Georgia,District 13,252833,0
+GA,Georgia,District 14,0,216743
+HI,Hawaii,District 1,145417,45958
+HI,Hawaii,District 2,170848,39668
+ID,Idaho,District 1,113052,242252
+ID,Idaho,District 2,95940,205292
+IL,Illinois,District 1,234037,81817
+IL,Illinois,District 2,235051,59471
+IL,Illinois,District 3,225320,0
+IL,Illinois,District 4,171297,0
+IL,Illinois,District 5,212842,86222
+IL,Illinois,District 6,143591,208555
+IL,Illinois,District 7,250584,46882
+IL,Illinois,District 8,144954,103617
+IL,Illinois,District 9,217306,109550
+IL,Illinois,District 10,150435,135535
+IL,Illinois,District 11,166578,108995
+IL,Illinois,District 12,124246,169976
+IL,Illinois,District 13,126811,187583
+IL,Illinois,District 14,137589,200508
+IL,Illinois,District 15,0,274554
+IL,Illinois,District 16,0,259722
+IL,Illinois,District 17,173125,113943
+IL,Illinois,District 18,96770,250506
+IN,Indiana,District 1,207515,0
+IN,Indiana,District 2,102401,164355
+IN,Indiana,District 3,66023,201396
+IN,Indiana,District 4,91256,193412
+IN,Indiana,District 5,123849,221957
+IN,Indiana,District 6,79135,204920
+IN,Indiana,District 7,158739,94456
+IN,Indiana,District 8,93356,187702
+IN,Indiana,District 9,130627,174791
+IA,Iowa,District 1,177403,206903
+IA,Iowa,District 2,198571,170933
+IA,Iowa,District 3,155002,208598
+IA,Iowa,District 4,142993,226719
+KS,Kansas,District 1,0,169992
+KS,Kansas,District 2,96840,181228
+KS,Kansas,District 3,139300,176022
+KS,Kansas,District 4,81495,166998
+KY,Kentucky,District 1,81710,216959
+KY,Kentucky,District 2,0,251825
+KY,Kentucky,District 3,212401,122093
+KY,Kentucky,District 4,94065,233922
+KY,Kentucky,District 5,0,221242
+KY,Kentucky,District 6,128728,202099
+LA,Louisiana,District 1,41840,243645
+LA,Louisiana,District 2,198289,0
+LA,Louisiana,District 3,0,77671
+LA,Louisiana,District 4,46579,87370
+LA,Louisiana,District 5,0,208545
+LA,Louisiana,District 6,49380,207483
+ME,Maine,District 1,227546,164569
+ME,Maine,District 2,159081,192878
+MD,Maryland,District 1,103622,242574
+MD,Maryland,District 2,192183,102577
+MD,Maryland,District 3,214640,115048
+MD,Maryland,District 4,237501,68670
+MD,Maryland,District 5,242989,105931
+MD,Maryland,District 6,185770,133081
+MD,Maryland,District 7,238838,69556
+MD,Maryland,District 8,220657,124651
+MA,Massachusetts,District 1,235803,0
+MA,Massachusetts,District 2,275487,0
+MA,Massachusetts,District 3,236713,107519
+MA,Massachusetts,District 4,265823,113055
+MA,Massachusetts,District 5,285606,0
+MA,Massachusetts,District 6,308923,0
+MA,Massachusetts,District 7,253354,0
+MA,Massachusetts,District 8,271019,102744
+MA,Massachusetts,District 9,211790,127803
+MI,Michigan,District 1,144334,197777
+MI,Michigan,District 2,110391,212508
+MI,Michigan,District 3,128400,203545
+MI,Michigan,District 4,101277,194572
+MI,Michigan,District 5,195279,112102
+MI,Michigan,District 6,119980,193259
+MI,Michigan,District 7,134010,184321
+MI,Michigan,District 8,143791,205629
+MI,Michigan,District 9,199661,128937
+MI,Michigan,District 10,110112,215132
+MI,Michigan,District 11,152461,200872
+MI,Michigan,District 12,211378,96104
+MI,Michigan,District 13,198771,40541
+MI,Michigan,District 14,244135,58103
+MN,Minnesota,District 1,169074,166526
+MN,Minnesota,District 2,167315,173970
+MN,Minnesota,District 3,169243,223077
+MN,Minnesota,District 4,203299,121032
+MN,Minnesota,District 5,249964,80660
+MN,Minnesota,District 6,123008,235380
+MN,Minnesota,District 7,173589,156952
+MN,Minnesota,District 8,179098,177089
+MS,Mississippi,District 1,83947,206455
+MS,Mississippi,District 2,192343,83542
+MS,Mississippi,District 3,96101,209490
+MS,Mississippi,District 4,77505,181323
+MO,Missouri,District 1,236993,62714
+MO,Missouri,District 2,155689,241954
+MO,Missouri,District 3,102891,249865
+MO,Missouri,District 4,92510,225348
+MO,Missouri,District 5,190766,123771
+MO,Missouri,District 6,99692,238388
+MO,Missouri,District 7,92756,228692
+MO,Missouri,District 8,70009,229792
+MT,Montana,At Large,205919,285358
+NE,Nebraska,District 1,83467,189771
+NE,Nebraska,District 2,137602,141066
+NE,Nebraska,District 3,0,226720
+NV,Nevada,District 1,116537,54174
+NV,Nevada,District 2,115722,182676
+NV,Nevada,District 3,146869,142926
+NV,Nevada,District 4,128985,118328
+NH,New Hampshire,District 1,162080,157176
+NH,New Hampshire,District 2,174371,158825
+NJ,New Jersey,District 1,183231,112388
+NJ,New Jersey,District 2,110838,176338
+NJ,New Jersey,District 3,127526,194596
+NJ,New Jersey,District 4,111532,211992
+NJ,New Jersey,District 5,172587,157690
+NJ,New Jersey,District 6,167895,91908
+NJ,New Jersey,District 7,148188,185850
+NJ,New Jersey,District 8,134733,32337
+NJ,New Jersey,District 9,162642,65376
+NJ,New Jersey,District 10,190856,26450
+NJ,New Jersey,District 11,130162,194299
+NJ,New Jersey,District 12,181430,92407
+NM,New Mexico,District 1,181088,96879
+NM,New Mexico,District 2,85232,143514
+NM,New Mexico,District 3,170612,102730
+NY,New York,District 1,135278,188499
+NY,New York,District 2,110812,181221
+NY,New York,District 3,167758,149577
+NY,New York,District 4,185286,125865
+NY,New York,District 5,199552,30257
+NY,New York,District 6,136506,50617
+NY,New York,District 7,172146,17478
+NY,New York,District 8,214595,0
+NY,New York,District 9,214189,0
+NY,New York,District 10,192371,53857
+NY,New York,District 11,85257,142934
+NY,New York,District 12,244358,49398
+NY,New York,District 13,207194,16089
+NY,New York,District 14,147587,30545
+NY,New York,District 15,165688,6129
+NY,New York,District 16,209857,0
+NY,New York,District 17,214530,0
+NY,New York,District 18,162060,129369
+NY,New York,District 19,138800,164800
+NY,New York,District 20,213021,100738
+NY,New York,District 21,82161,177886
+NY,New York,District 22,114266,129444
+NY,New York,District 23,118584,161050
+NY,New York,District 24,119040,182761
+NY,New York,District 25,182950,142650
+NY,New York,District 26,215289,73377
+NY,New York,District 27,107832,220885
+NC,North Carolina,District 1,240661,101567
+NC,North Carolina,District 2,169082,221485
+NC,North Carolina,District 3,106170,217531
+NC,North Carolina,District 4,279380,130161
+NC,North Carolina,District 5,147887,207625
+NC,North Carolina,District 6,143167,207983
+NC,North Carolina,District 7,135905,211801
+NC,North Carolina,District 8,133182,189863
+NC,North Carolina,District 9,139041,193452
+NC,North Carolina,District 10,128919,220825
+NC,North Carolina,District 11,129103,230405
+NC,North Carolina,District 12,234115,115185
+NC,North Carolina,District 13,156049,199443
+ND,North Dakota,At Large,80377,233980
+OH,Ohio,District 1,144644,210014
+OH,Ohio,District 2,111694,221193
+OH,Ohio,District 3,199791,91560
+OH,Ohio,District 4,98981,210227
+OH,Ohio,District 5,100392,244599
+OH,Ohio,District 6,88780,213975
+OH,Ohio,District 7,89638,198221
+OH,Ohio,District 8,87794,223833
+OH,Ohio,District 9,193966,88427
+OH,Ohio,District 10,109981,215724
+OH,Ohio,District 11,242917,59769
+OH,Ohio,District 12,112638,251266
+OH,Ohio,District 13,208610,99377
+OH,Ohio,District 14,130907,219191
+OH,Ohio,District 15,113960,222847
+OH,Ohio,District 16,119830,225794
+OK,Oklahoma,District 1,0,0
+OK,Oklahoma,District 2,62387,189839
+OK,Oklahoma,District 3,63090,227525
+OK,Oklahoma,District 4,76472,204143
+OK,Oklahoma,District 5,103273,160184
+OR,Oregon,District 1,225391,139756
+OR,Oregon,District 2,106640,272952
+OR,Oregon,District 3,274687,0
+OR,Oregon,District 4,220628,157743
+OR,Oregon,District 5,199505,160443
+PA,Pennsylvania,District 1,245791,53219
+PA,Pennsylvania,District 2,322514,35131
+PA,Pennsylvania,District 3,0,244893
+PA,Pennsylvania,District 4,113372,220628
+PA,Pennsylvania,District 5,101082,206761
+PA,Pennsylvania,District 6,155000,207469
+PA,Pennsylvania,District 7,153824,225678
+PA,Pennsylvania,District 8,173555,207263
+PA,Pennsylvania,District 9,107985,186580
+PA,Pennsylvania,District 10,89823,211282
+PA,Pennsylvania,District 11,113800,199421
+PA,Pennsylvania,District 12,137353,221851
+PA,Pennsylvania,District 13,239316,0
+PA,Pennsylvania,District 14,255293,87999
+PA,Pennsylvania,District 15,124129,190618
+PA,Pennsylvania,District 16,134586,168669
+PA,Pennsylvania,District 17,157734,135430
+PA,Pennsylvania,District 18,0,293684
+RI,Rhode Island,District 1,130534,71023
+RI,Rhode Island,District 2,133108,70301
+SC,South Carolina,District 1,119779,190410
+SC,South Carolina,District 2,109452,183746
+SC,South Carolina,District 3,73766,198431
+SC,South Carolina,District 4,91676,198648
+SC,South Carolina,District 5,115437,175909
+SC,South Carolina,District 6,177947,70099
+SC,South Carolina,District 7,112744,176468
+SD,South Dakota,At Large,132810,237163
+TN,Tennessee,District 1,39024,198293
+TN,Tennessee,District 2,68401,212455
+TN,Tennessee,District 3,76727,176613
+TN,Tennessee,District 4,89141,165796
+TN,Tennessee,District 5,171111,102433
+TN,Tennessee,District 6,61995,202234
+TN,Tennessee,District 7,65226,200407
+TN,Tennessee,District 8,70925,194386
+TN,Tennessee,District 9,171631,41123
+TX,Texas,District 1,62847,192434
+TX,Texas,District 2,100231,168692
+TX,Texas,District 3,109420,193684
+TX,Texas,District 4,0,216643
+TX,Texas,District 5,0,155469
+TX,Texas,District 6,106667,159444
+TX,Texas,District 7,111991,143542
+TX,Texas,District 8,0,236379
+TX,Texas,District 9,152032,36491
+TX,Texas,District 10,120170,179221
+TX,Texas,District 11,0,201871
+TX,Texas,District 12,76029,196482
+TX,Texas,District 13,0,199050
+TX,Texas,District 14,99054,160631
+TX,Texas,District 15,101712,66877
+TX,Texas,District 16,150228,0
+TX,Texas,District 17,86603,149417
+TX,Texas,District 18,150157,48306
+TX,Texas,District 19,0,176314
+TX,Texas,District 20,149640,0
+TX,Texas,District 21,129765,202967
+TX,Texas,District 22,123679,181864
+TX,Texas,District 23,107526,110577
+TX,Texas,District 24,108389,154845
+TX,Texas,District 25,117073,180988
+TX,Texas,District 26,94507,211730
+TX,Texas,District 27,88329,142251
+TX,Texas,District 28,122086,57740
+TX,Texas,District 29,95649,31646
+TX,Texas,District 30,170502,41518
+TX,Texas,District 31,103852,166060
+TX,Texas,District 32,0,162868
+TX,Texas,District 33,93147,33222
+TX,Texas,District 34,104638,62323
+TX,Texas,District 35,124612,62384
+TX,Texas,District 36,0,193675
+UT,Utah,District 1,73381,182928
+UT,Utah,District 2,93780,170542
+UT,Utah,District 3,75716,209589
+UT,Utah,District 4,113413,147597
+VT,Vermont,At Large,264414,0
+VA,Virginia,District 1,140785,230213
+VA,Virginia,District 2,119440,190475
+VA,Virginia,District 3,208337,103289
+VA,Virginia,District 4,200136,145731
+VA,Virginia,District 5,148339,207758
+VA,Virginia,District 6,112170,225471
+VA,Virginia,District 7,160159,218057
+VA,Virginia,District 8,246653,98387
+VA,Virginia,District 9,87877,212838
+VA,Virginia,District 10,187712,210791
+VA,Virginia,District 11,247818,0
+WA,Washington,District 1,193619,155779
+WA,Washington,District 2,208314,117094
+WA,Washington,District 3,119820,193457
+WA,Washington,District 4,0,132517
+WA,Washington,District 5,130575,192959
+WA,Washington,District 6,201718,126116
+WA,Washington,District 7,212010,0
+WA,Washington,District 8,127720,193145
+WA,Washington,District 9,205165,76317
+WA,Washington,District 10,170460,120104
+WV,West Virginia,District 1,73534,163469
+WV,West Virginia,District 2,101207,140807
+WV,West Virginia,District 3,49708,140741
+WI,Wisconsin,District 1,107003,230072
+WI,Wisconsin,District 2,273537,124044
+WI,Wisconsin,District 3,257401,169
+WI,Wisconsin,District 4,220181,0
+WI,Wisconsin,District 5,114477,260706
+WI,Wisconsin,District 6,133072,204147
+WI,Wisconsin,District 7,138643,223418
+WI,Wisconsin,District 8,135682,227892
+WY,Wyoming,At Large,75466,156176
