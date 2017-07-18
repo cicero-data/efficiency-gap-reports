@@ -7,14 +7,20 @@ Swap-out and configure election results and district boundaries then automatical
 
 ## Install
 
+Requires [Node.js](https://nodejs.org/).
+
+Install dependencies with:
+
 `npm install`
 
 
 ## Setup Election
 
-Edit `config.yml`.
+Edit `config.yml` to point to your election data.
 
 
 ## Generate Reports
 
 `npm run reports`
+
+Images for each delegation will be written to the `figures` directory.
