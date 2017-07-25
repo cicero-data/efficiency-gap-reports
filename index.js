@@ -222,11 +222,6 @@ csv(csvData, { columns: true }, function(err,data) {
 
   var results = new ElectionResults(dataLeftParty, dataRightParty, collectedDelegations);
 
-  var states = [];
-  results.delegations.map(function(d) {
-    states.push([d.name, d.efficiencyGap, d.seats, d.efficiencyGapSeats]);
-  });
-
   // Generate infographics
   report(results);
 });
@@ -242,11 +237,11 @@ function report(election) {
 
     // Party Advantage
     var advantageParty = undefined;
-    if (delegation.efficiencyGap < 0) { advantageParty = 'left'; }
-    if (delegation.efficiencyGap > 0) { advantageParty = 'right'; }
+    if (delegation.efficiencyGapImputation <= 0) { advantageParty = 'left'; }
+    if (delegation.efficiencyGapImputation > 0) { advantageParty = 'right'; }
 
     // Formatted Efficiency Gap advantage
-    var efficiencyGapPercent = Math.round(Math.abs(delegation.efficiencyGap) * 1000) / 10 + '%'
+    var efficiencyGapPercent = Math.round(Math.abs(delegation.efficiencyGapImputation) * 1000) / 10 + '%'
 
     // Canvas dimensions
     var width = 1200,
@@ -396,7 +391,7 @@ function report(election) {
     var uncontested = delegation.uncontestedSeats;
 
     var uncontestedSeats = (uncontested[0] === 0 && uncontested[1] === 0) ? false : true;
-    var significantAdvantage = delegation.efficiencyGapSeats !== 0;
+    var significantAdvantage = delegation.efficiencyGapSeatsImputation !== 0;
 
     // Main sentence
     var mainSentenceContent = [
@@ -408,7 +403,7 @@ function report(election) {
       { t: efficiencyGapPercent + ' efficiency gap advantage*', s: sentenceBoldFont, h: !uncontestedSeats && significantAdvantage, n: true },
       // Third Line
       { t: 'worth ', s: sentenceFont, h: false, n: true },
-      { t: Math.abs(delegation.efficiencyGapSeats) + ' extra ' + (delegation.efficiencyGapSeats === 1 ? 'seat' : 'seats'), s: sentenceBoldFont, h: !uncontestedSeats && significantAdvantage, n: false },
+      { t: Math.abs(delegation.efficiencyGapSeatsImputation) + ' extra ' + (delegation.efficiencyGapSeatsImputation === 1 ? 'seat' : 'seats'), s: sentenceBoldFont, h: !uncontestedSeats && significantAdvantage, n: false },
       { t: (uncontestedSeats ? ', but some seats' : '.'), s: sentenceFont, h: false, n: false },
       // Possible Fourth Line
       { t: (uncontestedSeats ? 'were left uncontested.**' : ''), s: sentenceFont, h: false, n: true },
@@ -440,13 +435,10 @@ function report(election) {
     if (uncontestedSeats) {
       var estimateDisclaimerSentenceContent = [
         {
-          t: '** If all seats were contested, it\'s estimated the ' +
-             (delegation.efficiencyGapImputation < 0 ? election.parties.left.name : election.parties.right.name) +
-             ' Party would ',
+          t: '** This efficiency gap score assumes an opponent would have won',
           s: disclaimerFont, h: false, n: false },
         {
-          t: '    have a ' + Math.round(Math.abs(delegation.efficiencyGapImputation) * 1000) / 10 + '%' + ' efficiency gap advantage worth ' +
-          Math.abs(delegation.efficiencyGapSeatsImputation) + ' extra ' + (delegation.efficiencyGapSeatsImputation === 1 ? 'seat.' : 'seats.'),
+          t: '    25% of the vote in uncontested seats.',
           s: disclaimerFont, h: false, n: true }
       ];
 
@@ -511,8 +503,6 @@ function report(election) {
       context.textAlign = 'end';
       context.fillText(Math.round(votes[1] / (votes[0] + votes[1]) * 100) + '% ' + election.parties.right.name + ' vote', graphOriginX + graphWidth, voteRectangleBaseline - annotationMargin);
       context.textAlign = 'start';
-
-      process.stdout.write(delegation.name + ': ' + Math.round(delegation.efficiencyGap * 100) / 100 + '\n');
     }
 
     //// Draw rectangles for seats
@@ -588,6 +578,8 @@ function report(election) {
     context.globalAlpha = 0.6;
     context.drawImage(image, leftMargin, height - leftMargin * 1.1);
     context.globalAlpha = 1.0;
+
+    process.stdout.write(delegation.name + ': ' + Math.round(delegation.efficiencyGapImputation * 100) / 100 + '\n');
 
     // Save image to the output directory
     canvas.pngStream().pipe(fs.createWriteStream(config.outputDirectory + '/' + delegation.name + ".png"));
